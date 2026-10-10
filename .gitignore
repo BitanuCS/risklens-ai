@@ -1,0 +1,23 @@
+# Data (never commit raw data or derived stores)
+data/raw/
+data/parquet/
+*.db
+*.duckdb
+
+# Secrets
+.env
+
+# ML artifacts
+mlruns/
+models/*.pkl
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# macOS (exFAT drive creates ._* AppleDouble files)
+.DS_Store
+._*
